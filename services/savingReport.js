@@ -11,13 +11,6 @@ const ifInList = (id)=>{
 }
 
 
-const checkNotEmpty = (object)=>{
-    for(let key in object){
-        if(object[key] === undefined || object[key] === ""){
-            throw new Error("One or more of the fields are empty.")
-        }
-    }
-}
 
 
 const savingReportIntoDB = (object)=>{

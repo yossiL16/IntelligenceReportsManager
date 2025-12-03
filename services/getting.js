@@ -1,16 +1,16 @@
 import {dataBase} from "../db/dataBase.js"
 
  
-// function compareNumbers(a,b){
-//     return a.id - b.id
-// }
+function compareNumbers(a,b){
+    return a.id - b.id
+}
 
-// function GettingAllReports(dataBase){
-//     dataBase.sort(compareNumbers)
-//     return db
-// }
+function GettingAllReports(db){
+    db.sort(compareNumbers)
+    return dataBase
+}
 
-// console.log(GettingAllReports(db));
+
 
 
 // function sortFile(dataBase, field){
@@ -42,3 +42,4 @@ function sortFiels(dataBase,inputField)
 
 }
 console.log(sortFiels(dataBase,"text"));
+
