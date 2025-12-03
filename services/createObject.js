@@ -1,7 +1,7 @@
 
 const checkId = (id)=>{
 
-    if(typeof(id) !== "string" && id === undefined    && typeof(id) !== "number"){
+    if(typeof(id) !== "string" && id === undefined && typeof(id) !== "number"){
         throw new Error("Must enter numbers")
     } 
     return id
